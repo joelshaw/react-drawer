@@ -1,6 +1,6 @@
 # React Drawer Component
 
-## Table of Contents
+Table of Contents
 ------
 1. Objective
 

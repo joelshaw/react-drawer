@@ -1,0 +1,19 @@
+{
+  "name": "react-component__drawer",
+  "version": "1.0.0",
+  "description": "A reusable drawer component written in React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelshaw/react-drawer.git"
+  },
+  "author": "Joel Shaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelshaw/react-drawer/issues"
+  },
+  "homepage": "https://github.com/joelshaw/react-drawer#readme"
+}

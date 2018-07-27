@@ -7,7 +7,7 @@ const APP_DIR = path.resolve(__dirname, './src');
 
 module.exports = {
     mode: 'development',
-    entry: APP_DIR + '/main.jsx',
+    entry: APP_DIR + '/main.js',
     output: {
         path: BUILD_DIR,
         filename: 'bundle.js'
@@ -20,7 +20,7 @@ module.exports = {
                 exclude: '/node_modules/'
             },
             {
-                test: /\.jsx/,
+                test: /\.js/,
                 loader: 'babel-loader',
                 include: APP_DIR,
                 exclude: '/node_modules/',
@@ -36,6 +36,7 @@ module.exports = {
     })],
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
-        port: 3000
-    }
+        port: 3000,
+    },
+    watch: true
 }

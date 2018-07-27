@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const BUILD_DIR = path.resolve(__dirname, './dist');
 const APP_DIR = path.resolve(__dirname, './src');
@@ -24,11 +25,15 @@ module.exports = {
                 include: APP_DIR,
                 exclude: '/node_modules/',
                 query: {
-                    presets: ['es2015']
+                    presets: ['react', 'es2015']
                 }
             }
         ]
     },
+    plugins: [new HtmlWebpackPlugin({
+        title: 'React Drawer',
+        template: APP_DIR + '/index.html'
+    })],
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
         port: 3000

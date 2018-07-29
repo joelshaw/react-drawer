@@ -10,12 +10,10 @@ Table of Contents
 
 [4. Using the Component](#using-the-component)
 
-[5. Accessibility](#accessibility)
-
 ----
 
 ## Overview
-This is a highly adaptable, reusable UI component written for use within a React project.
+This is a highly adaptable, reusable UI drawer component written for use within a React project. 
 
 ----
 ## Running the Application
@@ -27,7 +25,9 @@ Step 2: Run `yarn install` to install all of the required dependencies for the a
 
 Step 3: Once all of your dependencies have installed, you should be able to now run the app. To do so, run `yarn run start:dev`. This will start the Webpack server.
 
-Step 4: Navigate to http://localhost:3000/
+### After Installation
+
+Navigate to http://localhost:3000 in your web browser.
 
 ----
 
@@ -42,10 +42,11 @@ For development, we're using Webpack as our module builder and WebpackDevServer 
 
 ## Using the Component
 
-Reusing this component is incredibly simple. Within the 'main.js' file located within the 'src' directory is where the drawer component gets loaded.
+Reusing this component is incredibly simple. Within the `main.js` file located within the `src` directory is where the drawer component gets loaded.
 
-You've probably noticed we're added the title dynamically to the component using `props` within the main file. There are several reasons why this is happening, but the main reason is for easy component identification. (Say you're reusing this component 25 times. Being able to easily see your drawer's title will make your life significantly easier.) 
+You've probably noticed we're added the title dynamically to the component using `props` within the main file. There are several reasons why this is happening, but the main reason is for easy component identification. (Say you're reusing this component 25 times. Being able to easily see your drawer's title will make your life significantly easier.)
+
+#### Adding New Content
+Because this component needs to be highly adaptible to new content, we're pulling in drawer content dynamically. In this example the content is being pulled from the Content component (`src/components/content.js`). If the content needs to change, you can do so by adding
 
 ----
-
-## Accessibility

@@ -18,7 +18,6 @@ class Drawer extends Component {
     }
 
     render(){
-
         return(
             <div className="drawerContainer">
                 <div className="drawerHeader">

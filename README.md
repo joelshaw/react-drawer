@@ -2,8 +2,11 @@
 
 Table of Contents
 ------
-[a link](#objective) 1. Objective
-2. Running the Application
+[1. Objective](#objective)
+[2. Running the Application](#Running the Application)
+[3. Technology](#Technology)
+[4. Accessibility](#Accessibility)
+
 3. Technologies
 
 ## Objective
@@ -18,3 +21,5 @@ For repository size purposes, the node_modules have been redacted.
 Navigate to http://localhost:3000/
 
 ## Technologies
+
+## Accessibility

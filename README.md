@@ -2,18 +2,18 @@
 
 Table of Contents
 ------
-1. Objective
-2. Running the dev environment
+[a link](#objective) 1. Objective
+2. Running the Application
 3. Technologies
 
 ## Objective
 This is a highly adaptable, reusable UI component written for use within a React project.
 
-## Running the dev environment
+## Running the Application
 For repository size purposes, the node_modules have been redacted.
 
 ### Installation
-Pull the code from the repo.
+
 
 Navigate to http://localhost:3000/
 

@@ -12,6 +12,9 @@ This is a highly adaptable, reusable UI component written for use within a React
 ## Running the dev environment
 For repository size purposes, the node_modules have been redacted.
 
+### Installation
+Pull the code from the repo.
+
 Navigate to http://localhost:3000/
 
 ## Technologies

@@ -5,17 +5,17 @@ import style from './styles/style.css';
 
 import Drawer from './components/drawer';
 
-export default class Main extends Component {
+export default class App extends Component {
     render(){
         return(
             <div>
-                <Drawer name="Drawer Title" />
+                <Drawer name="Accordian Title" />
             </div>
         );
     }
 }
 
 ReactDOM.render(
-    <Main />,
+    <App />,
     document.getElementById('app')
 );
